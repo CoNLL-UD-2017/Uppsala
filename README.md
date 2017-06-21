@@ -5,9 +5,16 @@ The Uppsala submission to the CoNLL 2017 shared task has two components:
 * a joint sentence segmenter and tokenizer
 * a transition-based parser
 
-The parsing code has been released [here](http://github.com/UppsalaNLP/uuparser).
+The parsing code is [here](http://github.com/UppsalaNLP/uuparser).
+The segmentation code is [here](http://github.com/UppsalaNLP/segmenter).
 
-The tokenization code will be released soon and we are planning to add the scripts needed to run the pipeline in this repository.
+We added the scripts that we used for the shared task in scripts/. Our system was run with:
+
+```
+./bash_script.sh $inputDataset $outputDir
+```
+
+Note that our scripts point to our local models and installation on tira. If there is any interest, we can modify this to be more easily customisable.
 
 You can read more about our system in this paper:
 
