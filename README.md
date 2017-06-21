@@ -5,8 +5,8 @@ The Uppsala submission to the CoNLL 2017 shared task has two components:
 * a joint sentence segmenter and tokenizer
 * a transition-based parser
 
-The parsing code is [here](http://github.com/UppsalaNLP/uuparser).
-The segmentation code is [here](http://github.com/UppsalaNLP/segmenter).
+The parsing code is [here](http://github.com/UppsalaNLP/uuparser). The version we used for the shared task was released as [version 1.0](https://github.com/UppsalaNLP/uuparser/tree/1.0).  
+The segmentation code is [here](http://github.com/UppsalaNLP/segmenter). The version we used for the shared task was released as [version 1.0](https://github.com/UppsalaNLP/segmenter/tree/1.0).
 
 We added the scripts that we used for the shared task in scripts/. Our system was run with:
 
